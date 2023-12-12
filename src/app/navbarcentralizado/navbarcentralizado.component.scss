@@ -1,0 +1,345 @@
+ // ****************DROPDOWN PEGAJOSO*************************************************
+// .dropdown {
+//     position: relative;
+//     width: 230px;
+//     filter: url(#goo);
+  
+//     &__face,
+//     &__items {
+//       background-color: #ccc;
+//       padding: 20px;
+//       border-radius: 25px;
+//     }
+  
+//     &__face {
+//       display: block;
+//       position: relative;
+//     }
+  
+//     &__items {
+//       margin: 0;
+//       position: absolute;
+//       right: 0;
+//       top: 50%;
+//       width: 100%;
+//       list-style: none;
+//       list-style-type: none;
+//       display: flex;
+//       justify-content: space-between;
+//       visibility: hidden;
+//       z-index: -1;
+//       opacity: 0;
+//       transition: all 0.4s cubic-bezier(0.93, 0.88, 0.1, 0.8);
+  
+//       &::before {
+//         content: "";
+//         background-color: #ccc;
+//         position: absolute;
+//         bottom: 100%;
+//         right: 20%;
+//         height: 40px;
+//         width: 20px;
+//       }
+//     }
+  
+//     &__arrow {
+//       border-bottom: 2px solid #000;
+//       border-right: 2px solid #000;
+//       position: absolute;
+//       top: 50%;
+//       right: 30px;
+//       width: 10px;
+//       height: 10px;
+//       transform: rotate(45deg) translateY(-50%);
+//       transform-origin: right;
+//     }
+  
+//     input {
+//       display: none;
+  
+//       &:checked ~ .dropdown__items {
+//         top: calc(100% + 25px);
+//         visibility: visible;
+//         opacity: 1;
+//       }
+//     }
+//   }
+  
+//   body {
+//     background-image: linear-gradient(140deg, #e2e2e2, #cdcdcd);
+//     display: grid;
+//     place-items: center;
+//     font-family: "Lato", Arial, sans-serif;
+//     height: 100vh;
+//     margin: 0;
+//   }
+  
+//   * {
+//     box-sizing: border-box;
+//   }
+  
+//   svg {
+//     display: none;
+//   }
+  
+   // **********************************************************************************************************
+
+
+
+   // ****************BOTON QUE ABRE BOTONES**************************************************************
+
+  //  html {
+  //   background: #e8e8f3;
+  //   height: 100vh;
+  //   display: grid;
+  //   place-content: center;
+  //   -webkit-tap-highlight-color: transparent;
+  // }
+
+
+
+
+   // ****************BOTON CHEVERE*************************************************
+  
+  // .html {
+  //   background: #e8e8f3;
+  //   height: 100vh;
+  //   display: grid;
+  //   place-content: center;
+  //   -webkit-tap-highlight-color: transparent;
+  // }
+  
+  // .menu {
+  //   position: relative;
+  //   top: 40px;
+  //   padding: 30px;
+  //   background: #e8e8f3;
+  //   border-radius: 100%;
+  //   cursor: pointer;
+  //   box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15), -7px -7px 20px rgba(255, 255, 255, 1), inset 0px 0px 4px rgba(255, 255, 255, 0.2), inset 7px 7px 15px rgba(55, 84, 170, 0), inset -7px -7px 20px rgba(255, 255, 255, 0), 0px 0px 4px rgba(255, 255, 255, 0);
+  //   &::before, &::after {
+  //     content: "";
+  //     background: #c3c2c7;
+  //     border-radius: 5px;
+  //     width: 30px;
+  //     height: 5px;
+  //     position: absolute;
+  //     left: 16px;
+  //     top: 27px;
+  //     transition: 0.2s ease;
+  //     z-index: 1;
+  //   }
+  //   &::before {
+  //     transform: rotate(0deg);
+  //   }
+  //   &::after {
+  //     transform: rotate(-90deg);
+  //   }
+  //   &.open {
+  //     opacity: .9;
+  //     &::before {
+  //       transform: rotate(45deg);
+  //     }
+  //     &::after {
+  //       transform: rotate(-45deg);
+  //     }
+  //     .button {
+  //       opacity: 1;
+  //       pointer-events: auto;
+  //       &:first-of-type {
+  //         bottom: 40px;
+  //         right: 70px;
+  //         background: url("https://bassets.github.io/cam.svg") no-repeat 50%/50% #e8e8f3;
+  //       }
+  //       &:nth-of-type(2) {
+  //         bottom: 80px;
+  //         background: url("https://bassets.github.io/img.svg") no-repeat 50%/ 50% #e8e8f3;
+  //         transition-delay: .05s;
+  //       }
+  //       &:last-of-type {
+  //         bottom: 40px;
+  //         right: -70px;
+  //         background: url("https://bassets.github.io/music.svg") no-repeat 50% 45%/50% 45% #e8e8f3;
+  //         transition-delay: .1s;
+  //       }
+  //     }
+  //   }
+  // }
+  
+  // .button {
+  //   padding: 30px;
+  //   border-radius: 50%;
+  //   cursor: pointer;
+  //   background: #e8e8f3;
+  //   position: absolute;
+  //   bottom: 0;
+  //   right: 0;
+  //   opacity: 0;
+  //   pointer-events: none;
+  //   box-shadow: inherit;
+  //   transition: 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28), 0.2s ease opacity, 0.2s cubic-bezier(.08,.82,.17,1) transform;
+  //   &:hover {
+  //     transform: scale(1.1);
+  //   }
+  // }
+
+  
+
+   // ****************BOTON CHEVERE*************************************************
+
+
+   
+   // ****************BOTON CIRCULAR QUE ABRE BOTONES CIRCULARES*************************************************
+
+  //  body {
+  //   overflow: hidden;
+  //   background: #E6E6FA;
+  //   background: linear-gradient(to right, #b24592, #f15f79)
+  // }
+  // .menu-toggler {
+  //   position: absolute;
+  //   display: block;
+  //   top:0;
+  //   bottom:0;
+  //   right:0;
+  //   left:0;
+  //   margin:auto;
+  //   width:40px;
+  //   height:40px;
+  //   z-index:2;
+  //   opacity:0;
+  //   cursor:pointer;
+  // }
+  // .menu-toggler:hover + label,
+  // .menu-toggler:hover + label:before,
+  // .menu-toggler:hover + label:after{
+  //   background: white;
+  // }
+  // .menu-toggler:checked + label {
+  //   background: transparent;
+  // }
+  // .menu-toggler:checked + label:before,
+  // .menu-toggler:checked + label:after{
+  //   top:0;
+  //   width:40px;
+  //   transform-origin: 50% 50%;
+  // }
+  // .menu-toggler:checked + label:before {
+  //   transform: rotate(45deg) translateY(-15px) translateX(-15px);
+  // }
+  // .menu-toggler:checked + label:after {
+  //   transform: rotate(-45deg);
+  // }
+  // .menu-toggler:checked ~ ul .menu-item { 
+  //   opacity: 1;
+  // }
+  // .menu-toggler:checked ~ ul .menu-item:nth-child(1) {
+  //   transform: rotate(0deg) translate(-110px);
+  // }
+  // .menu-toggler:checked ~ ul .menu-item:nth-child(2) {
+  //   transform: rotate(60deg) translateX(-110px);
+  // }
+  // .menu-toggler:checked ~ ul .menu-item:nth-child(3) {
+  //   transform: rotate(120deg) translateX(-110px);
+  // }
+  // .menu-toggler:checked ~ ul .menu-item:nth-child(4) {
+  //   transform: rotate(180deg) translateX(-110px);
+  // }
+  // .menu-toggler:checked ~ ul .menu-item:nth-child(5) {
+  //   transform: rotate(240deg) translateX(-110px);
+  // }
+  // .menu-toggler:checked ~ ul .menu-item:nth-child(6) {
+  //   transform: rotate(300deg) translateX(-110px);
+  // }
+  // .menu-toggler:checked ~ ul .menu-item a {
+  //   pointer-events:auto;
+  // }
+  // .menu-toggler + label {
+  //   width: 40px;
+  //   height: 5px;
+  //   display: block;
+  //   z-index: 1;
+  //   border-radius: 2.5px;
+  //   background: rgba(230, 239, 250, 0.9);
+  //   transition: transform 0.5s top 0.5s;
+  //   position: absolute;
+  //   display: block;
+  //   top: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   right: 0;
+  //   margin: auto;
+  // }
+  // .menu-toggler + label:before,
+  // .menu-toggler + label:after {
+  //   width: 40px;
+  //   height: 5px;
+  //   display: block;
+  //   z-index: 1;
+  //   border-radius: 2.5px;
+  //   background: rgba(255, 255, 255, 0.7);
+  //   transition: transform 0.5s top 0.5s;
+  //   content: "";
+  //   position: absolute;
+  //   display: block;
+  //   left: 0;
+  // }
+  // .menu-toggler + label:before {
+  //   top: 10px;
+  // }
+  // .menu-toggler + label:after {
+  //   top: -10px;
+  // }
+  // .menu-item:nth-child(1) a {
+  //   transform: rotate(0deg);
+  // }
+  // .menu-item:nth-child(2) a {
+  //   transform: rotate(-60deg);
+  // }
+  // .menu-item:nth-child(3) a {
+  //   transform: rotate(-120deg);
+  // }
+  // .menu-item:nth-child(4) a {
+  //   transform: rotate(-180deg);
+  // }
+  // .menu-item:nth-child(5) a {
+  //   transform: rotate(-240deg);
+  // }
+  // .menu-item:nth-child(6) a {
+  //   transform: rotate(-300deg);
+  // }
+  // .menu-item {
+  //   position: absolute;
+  //   display: block;
+  //   top: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   right: 0;
+  //   margin: auto;
+  //   width: 80px;
+  //   height: 80px;
+  //   opacity: 0;
+  //   transition: 0.5s;
+  // }
+  // .menu-item a {
+  //   display: block;
+  //   width: inherit;
+  //   height: inherit;
+  //   line-height: 80px;
+  //   color: rgba(255, 255, 255, 0.7);
+  //   background: rgba(230, 230, 250, 0.7);
+  //   border-radius: 50%;
+  //   text-align: center;
+  //   text-decoration: none;
+  //   font-size: 40px;
+  //   pointer-events: none;
+  //   transition: 0.2s;
+  // }
+  // .menu-item a:hover {
+  //   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+  //   color: white;
+  //   background: rgba(255, 255, 255, 0.3);
+  //   font-size: 44.44px
+  // }
+
+     // ****************BOTON CIRCULAR QUE ABRE BOTONES CIRCULARES*************************************************
